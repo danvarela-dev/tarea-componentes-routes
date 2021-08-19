@@ -18,10 +18,6 @@ import { RouterModule } from '@angular/router';
     BrowserModule,
     RouterModule.forRoot(AppRoutes)
   ],
-  exports:[
-    BrowserModule,
-    RouterModule.forRoot(AppRoutes)
-  ],
   providers: [],
   bootstrap: [AppComponent]
 })
